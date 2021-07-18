@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0">
+    <title>AI POWERED GRAMMAR-CHECKER, SUMMARIZER AND SENTENCE FORMATION TOOL</title>
+    <link rel="icon" type="image/png" href="./favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon/favicon-16x16.png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <ul class="header__meta">
+      </ul>
+
+      <div class="container">
+        <div class="header__introduction">
+          <h1>LIFE EASIER</h1>
+          <p>AI POWERED SENTENCE FORMATER</p>
+
+</center>
+  <br></br>
+</div>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<div class="form__group">
+  <input type="text" class="form__input" id="namesf" placeholder="Enter your text"  required="" / >
+  <label for="namesf" class="form__label">Enter your text</label>
+</div>
+
+<button class="button" onclick=" letschecksentences();"><hx><center>Create new sentence</center></hx>
+</button>
+
+
+
+
+  
+        </div>
+      </div>
+
+      
+      <canvas class="header__background"></canvas>
+    </header>
+
+      <a class="footer__scroll" href="#"><img src="./img/arrow-down.svg" /></a>
+    </footer>
+
+    <script src="https://npmcdn.com/particlesjs@2.2.2/dist/particles.min.js"></script>
+    <script>
+      window.onload = function() {
+        Particles.init({
+          selector: '.header__background',
+          color: '#75A5B7',
+          maxParticles: 130,
+          connectParticles: true,
+          responsive: [
+            {
+              breakpoint: 768,
+              options: {
+                maxParticles: 80
+              }
+            }, {
+              breakpoint: 375,
+              options: {
+                maxParticles: 50
+              }
+            }
+          ]
+        });
+      };
+    </script>
+    
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </body>
+</html>
